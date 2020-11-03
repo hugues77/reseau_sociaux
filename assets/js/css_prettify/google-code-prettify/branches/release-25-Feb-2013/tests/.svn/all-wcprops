@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests
+END
+large_input_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/large_input_test.html
+END
+run_prettify_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/run_prettify_test.html
+END
+ie-newline-copy-paste.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/ie-newline-copy-paste.html
+END
+test_base.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/test_base.js
+END
+debug-ie-compat-matrix.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/debug-ie-compat-matrix.html
+END
+prettify_test.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/prettify_test.html
+END
+prettify_test_2.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/prettify_test_2.html
+END
+test_styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/277/branches/release-25-Feb-2013/tests/test_styles.css
+END

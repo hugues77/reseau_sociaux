@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/272/trunk/tools/closure-compiler
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/272/trunk/tools/closure-compiler/COPYING
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/272/trunk/tools/closure-compiler/README
+END
+amd-externs.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/272/trunk/tools/closure-compiler/amd-externs.js
+END
+console-externs.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/272/trunk/tools/closure-compiler/console-externs.js
+END
+compiler.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/272/trunk/tools/closure-compiler/compiler.jar
+END

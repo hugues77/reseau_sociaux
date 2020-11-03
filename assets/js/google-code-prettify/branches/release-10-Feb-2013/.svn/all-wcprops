@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/257/branches/release-10-Feb-2013
+END
+CHANGES.html
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/257/branches/release-10-Feb-2013/CHANGES.html
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/257/branches/release-10-Feb-2013/Makefile
+END
+README.html
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/257/branches/release-10-Feb-2013/README.html
+END
+cut-release.sh
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/257/branches/release-10-Feb-2013/cut-release.sh
+END
+README-zh-Hans.html
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/257/branches/release-10-Feb-2013/README-zh-Hans.html
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/257/branches/release-10-Feb-2013/COPYING
+END

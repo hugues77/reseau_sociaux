@@ -1,3 +1,32 @@
 body {
     padding-top: 70px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@0;1&display=swap');
+
+/* share code css */
+
+#main-content-share-code {
+    position: relative;
+}
+
+#code {
+    width: 100%;
+    min-height: 489px;
+    color: white;
+    outline: 0;
+    resize: none;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: 'Source Code Pro', monospace;
+    background-color: black;
+}
+
+.nav {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+}
+
+
+/* fin share code css */
