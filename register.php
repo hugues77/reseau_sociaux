@@ -61,7 +61,7 @@ if(isset($_POST['register'])){
                 'name' =>$name,
                 'pseudo'=>$pseudo,
                 'email' =>$email,
-                'password'=>sha1($password)
+                'password'=>bcrypt_hash_password($password)
             ));
                            
             redirect('index.php');

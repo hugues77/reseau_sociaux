@@ -157,3 +157,36 @@ if(!function_exists('is_logged_in')){
         return isset($_SESSION['user_id']) || isset($_SESSION['user_pseudo']);
     }
 }
+
+//hasher mon mot de passe avec bcrypt
+if(!function_exists('bcrypt_hash_password')){
+    function bcrypt_hash_password($value, $options = array()){
+        $cost = isset($options['rounds']) ? $options['rounds'] : 10;
+
+        $hash = password_hash($value, PASSWORD_BCRYPT, array('cost' => $cost));
+
+        if($hash === false){
+            throw new Exception("Bcrypt hashing n'est pas supporté.");
+        }
+        return $hash;
+    }
+}
+
+//verifier le mot de passe hasher
+if(!function_exists("bcrypt_verify_password")){
+    function bcrypt_verify_password($value, $hashedvalue){
+        return password_verify($value, $hashedvalue);
+    }
+}
+//function pour rediriger vers la page demander après connexion
+if(!function_exists('redirect_intent_or')){
+    function redirect_intent_or($default_url){
+        if($_SESSION['forwarding_url']){
+            $url = $_SESSION['forwarding_url'];
+        }else{
+            $url = $default_url;
+        }
+        $_SESSION['forwarding_url'] = null;
+        redirect($url);
+    }
+}

@@ -9,7 +9,11 @@
             <input class="form-control mr-sm-2 pr-3 " type="text" placeholder="Search" aria-label="Search">
             <button class="btn btn-secondary my-2 my-sm-0 " type="submit">Search</button>
         </form>
-        
+        <ul class="navbar-nav ml-4">
+            <li class="nav-item">
+                <a  class="nav-link btn btn-outline-primary" href="list_users.php"><?= $menu['liste_utilisateur'][$_SESSION['locale']]?></a>
+            </li>
+        </ul>
         <ul class=" navbar-nav nav mr-5">
             <li class="nav-item <?=set_active('index') ?>">
                 <a class="nav-link" href="?lang=fr"><img src="images/fr.png" width="25px" alt=""><span class="sr-only">(current)</span></a>
@@ -17,9 +21,9 @@
             <li class="nav-item <?=set_active('index') ?>">
                 <a class="nav-link" href="?lang=en"><img src="images/en.png" width="25px" alt=""><span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item <?=set_active('index') ?>">
+            <!-- <li class="nav-item <?=set_active('index') ?>">
                 <a class="nav-link" href="index.php"><?= $menu['accueil'][$_SESSION['locale']]?> <span class="sr-only">(current)</span></a>
-            </li>
+            </li> -->
             
             <?php if(is_logged_in()): ?>
                 <li class="nav-item dropdown">
@@ -28,6 +32,7 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="profile.php?id=<?= get_session('user_id')?>"><?= $menu['mon_profil'][$_SESSION['locale']]?> </a>
+                        <a class="dropdown-item" href="edit_user.php?id=<?= get_session('user_id')?>"><?= $menu['edit_user'][$_SESSION['locale']]?> </a>
                         <a class="dropdown-item" href="share_code.php"><?= $menu['share_code'][$_SESSION['locale']]?> </a>
                         <div class="dropdown-divider"></div>
                         
